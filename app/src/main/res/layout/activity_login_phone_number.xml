@@ -110,7 +110,7 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="100dp"
+        android:layout_height="80dp"
         android:gravity="center_vertical"
         android:orientation="vertical"
         android:layout_weight="20">
@@ -118,7 +118,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@drawable/btn_rounded_corner"
-            android:text="Send otp"
+            android:text="Dang ky"
+            android:textSize="25dp"
             android:id="@+id/send_otp_btn"/>
         <ProgressBar
             android:layout_width="32dp"
@@ -126,6 +127,16 @@
             android:indeterminateTint="@color/my_primary"
             android:layout_gravity="center"
             android:id="@+id/login_progress_bar"/>
+
+        <TextView
+            android:layout_gravity="center"
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:text="Login"
+            android:onClick="login"/>
+
     </LinearLayout>
 
 </LinearLayout>

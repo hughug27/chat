@@ -43,4 +43,8 @@ public class LoginPhoneNumberActivity extends AppCompatActivity {
     }
 
 
+    public void login(View view) {
+        Intent intent = new Intent(LoginPhoneNumberActivity.this,Login.class);
+        startActivity(intent);
+    }
 }

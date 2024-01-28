@@ -1,36 +1,45 @@
 {
   "project_info": {
-    "project_number": "745155540833",
-    "project_id": "easy-chat-backend",
-    "storage_bucket": "easy-chat-backend.appspot.com"
+    "project_number": "214923995729",
+    "project_id": "chatapp-e40bf",
+    "storage_bucket": "chatapp-e40bf.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:745155540833:android:8d8356e6c4a882ecde7720",
+        "mobilesdk_app_id": "1:214923995729:android:6378cf8347a3370c3fe670",
         "android_client_info": {
-          "package_name": "com.example.easychat"
+          "package_name": "com.example.chatapp"
         }
       },
-      "oauth_client": [
-        {
-          "client_id": "745155540833-fvdk5u97tdl1i3nje2hr4n0pnnlc9q4f.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
+      "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyAkXBuJqEYHZJ00fpHgKcLGocgZ3ZXMWo0"
+          "current_key": "AIzaSyBoolEXmN6FGl-SdIE3RzXTNGmrI5GX8cs"
         }
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": [
-            {
-              "client_id": "745155540833-fvdk5u97tdl1i3nje2hr4n0pnnlc9q4f.apps.googleusercontent.com",
-              "client_type": 3
-            }
-          ]
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:214923995729:android:bff006c416c0b97b3fe670",
+        "android_client_info": {
+          "package_name": "com.example.easychat"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBoolEXmN6FGl-SdIE3RzXTNGmrI5GX8cs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
         }
       }
     }
