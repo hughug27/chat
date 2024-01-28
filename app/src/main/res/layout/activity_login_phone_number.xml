@@ -73,7 +73,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Enter mobile number"
+        android:text="Nhap So Dien Thoai"
         android:layout_gravity="center_vertical"
         android:letterSpacing="0.08"
         android:textStyle="bold"
@@ -118,7 +118,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@drawable/btn_rounded_corner"
-            android:text="Dang ky"
+            android:text="Next"
             android:textSize="25dp"
             android:id="@+id/send_otp_btn"/>
         <ProgressBar
@@ -135,7 +135,8 @@
             android:layout_height="wrap_content"
             android:textSize="25dp"
             android:text="Login"
-            android:onClick="login"/>
+            android:onClick="login"
+            android:visibility="gone"/>
 
     </LinearLayout>
 
